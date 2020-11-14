@@ -1,4 +1,7 @@
 spring:
+  kafka:
+    bootstrap-servers:
+      - docker-kafka:9092
   profiles:
     active: local
 server:
@@ -6,6 +9,9 @@ server:
 base:
   uri:
     server: http://docker-server
+kafka:
+    topic:
+        refresh: refresh-config
 
 ---
 
