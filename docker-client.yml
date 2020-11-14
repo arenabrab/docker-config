@@ -1,4 +1,7 @@
 spring:
+  kafka:
+    bootstrap-servers:
+      - docker-kafka:9092
   profiles:
     active: local
 server:
