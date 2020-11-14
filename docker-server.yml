@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: local
+server:
+  port: 8080
+base:
+  uri:
+    server: http://docker-server
+
+---
+
+spring:
+  profiles:
+    active: dev
