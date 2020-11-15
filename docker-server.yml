@@ -12,6 +12,8 @@ base:
 kafka:
     topic:
         refresh: refresh-config
+andrew:
+  thing: thisThing
 
 ---
 
