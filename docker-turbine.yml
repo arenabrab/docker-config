@@ -12,6 +12,9 @@ base:
 kafka:
     topic:
         refresh: refresh-config
+turbine:
+  app-config: docker-server, docker-client
+  cluster-name-expression: "'default'"
 
 ---
 
