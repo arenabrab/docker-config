@@ -14,7 +14,7 @@ kafka:
         refresh: refresh-config
 turbine:
   app-config: docker-server, docker-client
-  cluster-name-expression: "'defaultTwo'"
+  cluster-name-expression: "'default4'"
 
 ---
 

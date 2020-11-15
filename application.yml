@@ -6,4 +6,4 @@ eureka:
         service-url:
             defaultZone: http://eureka-server:8761/eureka
 andrew:
-    thing: hello Me
+    thing: hello You
