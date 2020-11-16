@@ -12,10 +12,11 @@ base:
 kafka:
     topic:
         refresh: refresh-config
+andrew:
+  thing: hello
 turbine:
   app-config: docker-server, docker-client
   cluster-name-expression: "'default'"
-
 ---
 
 spring:
