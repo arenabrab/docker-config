@@ -18,7 +18,8 @@ turbine:
 management:
   endpoints:
     exposure:
-      include: '*''
+      include: '*'
+      
 ---
 
 spring:

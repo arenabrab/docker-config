@@ -9,6 +9,9 @@ server:
 base:
   uri:
     server: http://docker-server
+kafka:
+  topic:
+    refresh: refresh-config
 ---
 
 spring:
