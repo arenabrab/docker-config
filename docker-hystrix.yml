@@ -9,11 +9,9 @@ server:
 base:
   uri:
     server: http://docker-server
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh, hystrix.stream
+kafka:
+  topic:
+    refresh: refresh-config
 ---
 
 spring:

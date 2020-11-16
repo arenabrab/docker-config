@@ -14,13 +14,8 @@ kafka:
         refresh: refresh-config
 turbine:
   app-config: docker-server, docker-client
-  cluster-name-expression: "'default4'"
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh, hystrix.stream
-
+  cluster-name-expression: "'default'"
+  
 ---
 
 spring:
