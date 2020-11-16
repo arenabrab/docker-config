@@ -18,8 +18,7 @@ turbine:
 management:
   endpoints:
     exposure:
-      include: turbine.stream
-      
+      include: '*''
 ---
 
 spring:
