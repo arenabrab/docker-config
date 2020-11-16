@@ -12,6 +12,7 @@ base:
 kafka:
   topic:
     refresh: refresh-config
+    
 ---
 
 spring:
