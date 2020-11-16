@@ -19,7 +19,7 @@ management:
   endpoints:
     exposure:
       include: '*'
-      
+
 ---
 
 spring:
