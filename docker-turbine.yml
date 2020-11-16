@@ -15,7 +15,7 @@ kafka:
 turbine:
   app-config: docker-server, docker-client
   cluster-name-expression: "'default'"
-  
+
 ---
 
 spring:
