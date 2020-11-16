@@ -13,9 +13,6 @@ kafka:
     topic:
         refresh: refresh-config
 management:
-  endpoint:
-    health:
-      show-details: always
   endpoints:
     web:
       exposure:
