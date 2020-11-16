@@ -6,8 +6,12 @@ eureka:
         service-url:
             defaultZone: http://eureka-server:8761/eureka
 andrew:
-    thing: hello You
+    thing: hello me
 management:
     endpoint:
         health:
             show-details: always
+    endpoints:
+        web:
+            exposure:
+                include: refresh, hystrix.stream, health, info

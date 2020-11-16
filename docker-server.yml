@@ -12,11 +12,6 @@ base:
 kafka:
     topic:
         refresh: refresh-config
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh, hystrix.stream
 ---
 
 spring:
