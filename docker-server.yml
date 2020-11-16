@@ -12,8 +12,10 @@ base:
 kafka:
     topic:
         refresh: refresh-config
-andrew:
-  thing: thisThing
+management:
+  endpoint:
+    health:
+      show-details: always
 
 ---
 
