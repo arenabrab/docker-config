@@ -15,6 +15,10 @@ kafka:
 turbine:
   app-config: docker-server, docker-client
   cluster-name-expression: "'default4'"
+management:
+  endpoints:
+    exposure:
+      include: turbine.stream
 ---
 
 spring:
