@@ -6,9 +6,7 @@ spring:
     active: local
 server:
   port: 8080
-base:
-  uri:
-    server: http://docker-server
+
 kafka:
     topic:
         refresh: refresh-config

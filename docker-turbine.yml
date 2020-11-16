@@ -6,17 +6,11 @@ spring:
     active: local
 server:
   port: 8081
-base:
-  uri:
-    server: http://docker-server
-kafka:
-    topic:
-        refresh: refresh-config
-andrew:
-  thing: hello
+
 turbine:
   app-config: docker-server, docker-client
   cluster-name-expression: "'default'"
+
 ---
 
 spring:
